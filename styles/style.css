@@ -69,12 +69,21 @@ address {
   gap: 20px;
 }
 
+.first-heading {
+  line-height: 115%;
+  letter-spacing: 30px;
+}
+
 .second-heading {
+  line-height: 115%;
   justify-self: center;
+  letter-spacing: 30px;
 }
 
 .third-heading {
+  line-height: 115%;
   justify-self: end;
+  letter-spacing: 30px;
 }
 
 .description {
@@ -86,7 +95,7 @@ address {
 .cta-text {
   font-size: 22px;
   color: #fff;
-  word-spacing: 27px;
+  word-spacing: 25px;
 }
 
 .bid-button {
@@ -94,6 +103,7 @@ address {
   color: #fff;
   background: none;
   border: 1px solid #fff;
+  font-size: 22px;
 }
 
 .lots {
@@ -159,6 +169,7 @@ address {
   grid-template-columns: 334px 1fr;
   margin-top: 120px;
   padding: 24px;
+  gap: 24px;
 }
 
 .about__logo {
@@ -168,6 +179,7 @@ address {
   width: 240px;
   background-color: #000;
   border-radius: 100%;
+  margin: 35px 0 0 0;
   justify-self: center;
 
 }
@@ -184,6 +196,14 @@ address {
 
 .about__text {
   line-height: 1.2;
+}
+
+.about-description:nth-child(3) {
+  margin-bottom: 24px;
+}
+
+.about-margin-text {
+  margin-bottom: 24px;
 }
 
 footer {
