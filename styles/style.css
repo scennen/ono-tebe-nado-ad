@@ -15,7 +15,8 @@ address {
   font-style: normal; /* убирает italic от браузера */
 }
 
-.navigation-item, .nav-text{
+.navigation-item, 
+.nav-text {
   font-size: 18px;  
 }
 
@@ -50,10 +51,6 @@ address {
   position: relative;
   background-image: url(/images/cover.jpg);
   padding: 50px;
-}
-
-.overlay {
-
 }
 
 .cover-heading {
