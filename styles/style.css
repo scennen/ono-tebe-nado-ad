@@ -1,1 +1,196 @@
-/* место для вашего кода */
+h1 {
+  font-size: 100px;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+address {
+  font-style: normal; /* убирает italic от браузера */
+}
+
+.navigation-item, .nav-text{
+  font-size: 18px;  
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 100px 50px ;
+}
+
+.navigation-list {
+  display: flex;
+  list-style: circle;
+  gap: 30px;
+}
+
+.navigation-item:first-child {
+  list-style: none;
+}
+
+.header-address {
+  max-width: 240px;
+  justify-self: end;
+
+}
+
+.cover {
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  padding: 50px;
+}
+
+.overlay {
+
+}
+
+.cover-heading {
+  padding:  115px 0 106px;
+  display: grid;
+  gap: 20px;
+}
+
+.second-heading {
+  justify-self: center;
+}
+
+.third-heading {
+  justify-self: end;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  font-size: 22px;
+  color: #fff;
+  word-spacing: 27px;
+}
+
+.bid-button {
+  padding: 12px 32px;
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+}
+
+.lots {
+  margin-top: 180px;
+}
+
+.lots__heading, .more {
+  margin-left: 64px;
+}
+
+.lots-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  flex-wrap: nowrap;
+}
+
+.lots-item {
+  height: 596px;
+  width: 334px;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+
+}
+
+.lots-heading {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  color:#fff;
+  height: 100%;
+}
+
+.lots-text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots-item:first-child {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.lots-item:nth-child(2) {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.lots-item:nth-child(3) {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.about-auction {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  margin-top: 120px;
+  padding: 24px;
+}
+
+.about__logo {
+  display: grid;
+  place-items: center;
+  height: 240px;
+  width: 240px;
+  background-color: #000;
+  border-radius: 100%;
+  justify-self: center;
+
+}
+
+.logo-white {
+  width: 148px;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__title {
+  margin: 100px 0;
+}
+
+.about__text {
+  line-height: 1.2;
+}
+
+footer {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item {
+  width: 48px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.footer-navigation-list {
+  flex-direction: column;
+  gap: 0px;
+  list-style: none;
+  align-items: center;
+}
