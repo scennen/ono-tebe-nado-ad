@@ -26,7 +26,7 @@ address {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 148px 1fr;
   align-items: center;
   padding: 100px 50px ;
 }
@@ -50,7 +50,17 @@ address {
 .cover {
   position: relative;
   background-image: url(/images/cover.jpg);
+  background-size: cover;
+  z-index: 0;
   padding: 50px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  z-index: -1;
 }
 
 .cover-heading {
@@ -103,6 +113,7 @@ address {
 }
 
 .lots-item {
+  position: relative;
   height: 596px;
   width: 334px;
   display: flex;
@@ -127,14 +138,20 @@ address {
 
 .lots-item:first-child {
   background-image: url(/images/card-lot-01.jpg);
+  background-size: cover;
+  z-index: 0;
 }
 
 .lots-item:nth-child(2) {
   background-image: url(/images/card-lot-02.jpg);
+  background-size: cover;
+  z-index: 0;
 }
 
 .lots-item:nth-child(3) {
   background-image: url(/images/card-lot-03.jpg);
+  background-size: cover;
+  z-index: 0;
 }
 
 .about-auction {
@@ -170,7 +187,7 @@ address {
 }
 
 footer {
-  margin-top: 180px;
+  margin: 180px 0px 82px 0px;
   display: flex;
   justify-content: space-between;
 }
