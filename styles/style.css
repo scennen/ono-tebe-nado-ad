@@ -26,9 +26,9 @@ address {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: 1fr 135px 1fr;
   align-items: center;
-  padding: 100px 50px ;
+  padding: 92px 50px 96px 50px;
 }
 
 .navigation-list {
@@ -207,7 +207,7 @@ address {
 }
 
 footer {
-  margin: 180px 0px 82px 0px;
+  margin: 180px 50px 82px 50px;
   display: flex;
   justify-content: space-between;
 }
