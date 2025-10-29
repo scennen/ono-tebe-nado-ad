@@ -8,7 +8,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 address {
@@ -95,7 +95,7 @@ address {
 .cta-text {
   font-size: 22px;
   color: #fff;
-  word-spacing: 25px;
+  word-spacing: 20px;
 }
 
 .bid-button {
